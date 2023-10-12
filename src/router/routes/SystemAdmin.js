@@ -1,20 +1,20 @@
 import { lazy } from "react"
-const SystemAdminTable = lazy(() => import("../../views/SystemAdmin"))
-const SystemAdminRoleType = lazy(() =>
+const SystemadminTable = lazy(() => import("../../views/systemAdmin/SystemAdminTable"))
+const SystemadminRoleType = lazy(() =>
   import("../../views/systemAdmin/SystemAdminTypeForm")
 )
-const SystemAdminEdit = lazy(() =>
-  import("../../views/SystemAdmin/SystemAdmineditForm")
+const SystemadminEdit = lazy(() =>
+  import("../../views/systemAdmin/SystemAdmineditForm")
 )
-const SystemAdminaddForm = lazy(() =>
-  import("../../views/SystemAdmin/SystemAdminaddForm")
+const SystemadminaddForm = lazy(() =>
+  import("../../views/systemAdmin/SystemAdminaddForm")
 )
 
 const SystemAdminRoute = [
   {
     id: "systemAdmins",
     path: "/system-admins",
-    element: <SystemAdminTable />,
+    element: <SystemadminTable />,
     meta: {
       className: "system-application",
     },
@@ -22,7 +22,7 @@ const SystemAdminRoute = [
   {
     id: "systemAdmins",
     path: "/system-admins/:id",
-    element: <SystemAdminEdit />,
+    element: <SystemadminEdit />,
     meta: {
       className: "system-application",
     },
@@ -30,7 +30,7 @@ const SystemAdminRoute = [
   {
     id: "systemAdmins",
     path: "/system-admins/new",
-    element: <SystemAdminaddForm />,
+    element: <SystemadminaddForm />,
     meta: {
       className: "system-application",
     },
@@ -38,7 +38,7 @@ const SystemAdminRoute = [
   {
     id: "systemAdmins",
     path: "/system-admins/type/:id",
-    element: <SystemAdminRoleType />,
+    element: <SystemadminRoleType />,
     meta: {
       className: "system-application",
     },
@@ -46,7 +46,7 @@ const SystemAdminRoute = [
   {
     id: "systemAdmins",
     path: "/system-admins/new-type",
-    element: <SystemAdminRoleType />,
+    element: <SystemadminRoleType />,
     meta: {
       className: "system-application",
     },
