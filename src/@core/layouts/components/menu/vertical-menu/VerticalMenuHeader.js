@@ -1,14 +1,14 @@
 // ** React Imports
 import { useEffect } from "react"
 import { NavLink } from "react-router-dom"
-import Ittihadlogo from "../../../../../assets/images/logo/ittihad-logo.png"
-import IttihadlogoSmall from "../../../../../assets/images/logo/ittihad-small-logo.png"
+import Ittihadlogo from "@src/assets/images/logo/ittihad-logo.png"
+import IttihadlogoSmall from "@src/assets/images/logo/ittihad-small-logo.png"
 
-import IsraellogoSmall from "../../../../../assets/images/logo/israel-small-logo.png"
+import IsraellogoSmall from "@src/assets/images/logo/israel-small-logo.png"
 
-import Israellogo from "../../../../../assets/images/logo/Israel-logo.png"
-import CombineLogo from "../../../../../assets/images/logo/combinelogo2.png"
-import CombineLogoSmall from "../../../../../assets/images/logo/combine-small-logo.png"
+import Israellogo from "@src/assets/images/logo/Israel-logo.png"
+import CombineLogo from "@src/assets/images/logo/combinelogo2.png"
+import CombineLogoSmall from "@src/assets/images/logo/combine-small-logo.png"
 
 // ** Icons Imports
 import { Disc, X, Circle } from "react-feather"
